@@ -14,6 +14,7 @@ void setup() {
   theBox = new Box();
   pos = -20;
   speed = 0;
+  noStroke();
 }
 void draw() {
     background(82,122,67);
